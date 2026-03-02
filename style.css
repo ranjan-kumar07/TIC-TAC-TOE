@@ -1,0 +1,55 @@
+body {
+   display:flex;
+   flex-direction:column;
+   justify-content:center;
+   align-items:center;
+   height:100vh;
+   background-color: beige;
+}
+
+
+.boxs{
+         
+    /* box-shadow: 5px 5px 20px black;     */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+.box {
+   background-color: white;   
+   border: 2px solid black;
+   height: 100px;
+   width: 100px;
+   margin: 1px;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   font-size:2rem;
+   cursor:pointer;
+   border-radius: 10px;
+}
+
+.box:hover{
+    background-color: gainsboro;
+}
+
+.btn{
+    display:flex;
+    justify-content: center;
+    margin:3rem;  
+}
+
+#reset{
+    border:none;
+    padding:0.5rem;
+    margin:10px;
+    border-radius: 5px;
+    text-align:center;
+    font-size:1rem;
+    background-color: cadetblue;
+}
+
+#reset:hover{
+    background-color:darkcyan;
+    cursor:pointer;
+}
